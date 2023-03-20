@@ -1,0 +1,417 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 1371px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    background: #00000066 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF33;
+    height: 90px;
+    width: 1666px;
+}
+.share_icon_main_section{
+    margin-top: 27px;
+    margin-left: 141px;
+    width: 31px;
+    height: 35px;
+    z-index: 1;
+    color: white;
+    opacity: 1;
+}
+.logo{
+
+    margin-left: 10px;
+    opacity: 1;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font: normal normal bold 35px/47px Nunito Sans;
+}
+.first_word{
+    color: #FF0000;
+    text-decoration: none;
+}
+.second_word{
+    padding-left: 8px;
+    color: #FFF;
+    z-index: 1;
+    text-decoration: none;
+}
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    z-index: 0;
+    margin-left: 550px;
+    margin-top: 33px;
+    height: 22px;
+    list-style: none;
+    font: normal normal bold 16px/22px Nunito Sans;
+    color: #FFF;
+}
+li{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+
+
+
+.container_main_section{
+    height: 900px;
+}
+.main_section_picture {
+    margin-top: -90px;
+    width: 1666px;
+    z-index: -1;
+    background-size: cover;
+}
+h1{
+    margin-top: -600px;
+    display: flex;
+    justify-content: center;
+    height: 123px;
+    text-align: left;
+    font: normal normal 900 90px/90px Nunito Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000040;
+}
+.paragraph_main_section{
+    display: flex;
+    justify-content: center;
+    width: 1046px;
+    height: 44px;
+    text-align: center;
+    letter-spacing: 0;
+    opacity: 1;
+    font: normal normal bold 16px/22px Nunito Sans;
+    color: #FFF;
+    text-shadow: 0px 3px 6px #00000040;
+    margin-left: 250px;
+}
+.btns_main_section{
+    display: flex;
+    margin-top: 30px;
+}
+.first_btn_main_section {
+    background: #FF0000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FF00004D;
+    color: #FFF;
+    font: normal normal bold 16px/22px Nunito Sans;
+    text-align: center;
+    border-radius: 40px;
+    height: 66px;
+    width: 220px;
+    letter-spacing: 0;
+    margin-left: 550px;
+}
+.second_btn_main_section {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 16px/22px Nunito Sans;
+    color: #FF0000;
+    margin-left: 15px;
+    border-radius: 40px;
+    height: 66px;
+    width: 220px;
+    letter-spacing: 0;
+}
+.down_arrow {
+    background: #FF0000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FF00004D;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -330px;
+    margin-left: 656px;
+    z-index: 1;
+}
+
+
+
+.blog_section{
+    margin-left: 13vw;
+}
+.blog {
+    margin-left: 636px;
+    padding-top: 40px;
+    height: 47px;
+    width: 95px;
+    font: normal normal bold 35px/47px Nunito Sans;
+    text-align: left;
+    color: #000000;
+}
+.blog_pictures {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.photo_blog{
+    height: 234;
+    width: 352px;
+}
+.second_photo_blog_section{
+    margin: 0 16px;
+}
+.header_blog_section{
+    font: normal normal normal 19px/26px Nunito Sans;
+    margin-top: 25px;
+    width: 231px;
+    height: 26px;
+}
+.text_blog_section{
+    margin-top: 35px;
+    height: 79px;
+    width: 260px;
+    font: normal normal 300 14px/19px Open Sans;
+    color: #6A6A6A;
+}
+.btn_blog_section {
+    width: 142px;
+    height: 40px;
+    background: #FF0000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FF00004D;
+    border-radius: 40px;
+    text-align: center;
+    font: normal normal bold 14px/19px Nunito Sans;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 9px;
+    padding-left: 29px;
+    margin-top: 15px;
+}
+
+
+
+
+
+.container_service_section{
+    width: 1366px;
+    height: 600px;
+    margin-top: 100px;
+    background-color: #28272C;
+    margin-left: 5vw;
+}
+.service{
+    height: 47px;
+    width: 146px;
+    margin-left: 610px;
+    text-align: left;
+    font: normal normal bold 35px/47px Nunito Sans;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+.service_pictures{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+.first_service_pictures{
+    margin-left: 50px;
+    color: #FFFFFF;
+}
+.second_service_pictures{
+    color: #FFFFFF;
+    margin-left: 107px;
+}
+.third_service_pictures{
+    color: #FFFFFF;
+    margin-left: 106px;
+}
+.fourth_service_pictures{
+    color: #FFFFFF;
+    margin-left: 105px;
+}
+.header_services_section{
+    margin-top: 15px;
+    width: 238px;
+    height: 26px;
+    font: normal normal normal 19px/26px Nunito Sans;
+    color: #FFFFFF;
+}
+.text_service_section{
+    margin-top: 15px;
+    width: 231px;
+    height: 80px;
+    font: normal normal normal 14px/19px Open Sans;
+    color: #B2B2B2;
+}
+.btn_services_section{
+    width: 142px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    width: 142px;
+    height: 40px;
+    padding-top: 11px;
+    border-radius: 40px;
+    box-shadow: 0px 3px 6px #FF00004D;
+}
+
+
+
+.container_conctact_section{
+    width: 1366px;
+    height: 489px;
+}
+.contact{
+    width: 165px;
+    height: 47px;
+    font: normal normal bold 35px/47px Nunito Sans;
+    margin-left: 700px;
+    margin-top: 65px;
+}
+.contact_section{
+    display: flex;
+    flex-direction: row;
+    margin-left: 400px;
+    margin-top: 35px;
+}
+.form_contact_section{
+    margin-left: 16px;
+}
+.photo_contact_section{
+    width: 444px;
+    height: 317px;
+}
+.form_name_contact_section{
+    width: 444px;
+    height: 38px;
+    box-shadow: 0px 1px 6px #FF00004D;
+    border: 1px solid #FF0000;
+    border-radius: 8px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    font: normal normal normal 16px/22px Nunito Sans;
+    color: #B2B2B2;
+    padding-left: 12px;
+}
+.form_email_contact_section{
+    width: 444px;
+    height: 38px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    margin-top: 20px;
+    font: normal normal normal 16px/22px Nunito Sans;
+    color: #B2B2B2;
+    padding-left: 12px;
+}
+.form_message_contact_section{
+    width: 444px;
+    height: 140px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+    margin-top: 20px;
+    font: normal normal normal 16px/22px Nunito Sans;
+    color: #B2B2B2;
+    padding-left: 12px;
+}
+.check_box_contact_section{
+    width: 444px;
+    height: 71px;
+
+}
+.checkbox_text{
+    width: 412px;
+    height: 71px;
+    font: normal normal 300 10px/14px Open Sans;
+    color: #B2B2B2;
+}
+.btn_contact_section{
+    width: 142px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #FF00004D;
+    border: 1px solid #FF0000;
+    border-radius: 40px;
+    font: normal normal bold 14px/19px Nunito Sans;
+    color: #FF0000;
+    padding-top: 11px;
+    margin-left: 300px;
+    margin-top: 11px;
+}
+
+
+
+
+.footer_section{
+    width: 1366px;
+    height: 233px;
+    background: #28272C 0% 0% no-repeat padding-box;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+.left_side{
+    color: #FFFFFF;
+}
+.logo_footer{
+    width: 16px;
+    height: 19px;
+    background: transparent 0% 0% no-repeat padding-box;
+}
+.logo_footer_section{
+    margin-left: 140px;
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+}
+.subtitle_car_footer_red{
+    color: #FF0000;
+    width: 53px;
+    height: 34px;
+    font: normal normal 800 25px/34px Nunito Sans;
+
+}
+.subtitle_block{
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+}
+.subtitle_car_footer_white{
+    width: 115px;
+    height: 34px;
+    font: normal normal bold 25px/34px Nunito Sans;
+}
+.subtitles_left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 139px;
+}
+.red_home{
+    color:#FF0000;
+}
+a{
+    width: 120px;
+    height: 19px;
+    font: normal normal bold 14px/19px Nunito Sans;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.subtitles_right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+}
+.copywriright{
+    margin-left: 1100px;
+    margin-top: -50px;
+    color: #D1D1D1;
+}
